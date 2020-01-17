@@ -1,0 +1,16 @@
+<svg>
+ <!-- 348x250 -->
+ <text id="spoor" x="2" y="46"> </text>
+ <text id="station" x="100%-2" y="46"> </text>
+ <line x1="0" y1="60" x2="100%" y2="60" fill="#7090b5" stroke-width="1" />
+ <text id="tijd" x="50%" y="50%+37">99:99</text> 
+ <line x1="0" y1="100%-70" x2="100%" y2="100%-70" fill="#7090b5" stroke-width="1" />
+  
+ <!-- text id="ticker" x="2" y="100%-20"> </text -->  
+ <use id="ticker" href="#marquee-text" x="2" fill="cyan" font-size="48" y="90">
+  <!-- rect width="100%" height="50" fill="red" opacity="0.4" / -->
+  <set href="group/text" attributeName="text-buffer"
+       to=" " />
+  <set href="group/separator" attributeName="width" to="150" />
+ </use>
+</svg>

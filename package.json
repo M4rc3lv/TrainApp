@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "193f5b10-a3cb-4b00-abf7-74837754b523",
+    "appType": "app",
+    "appDisplayName": "Trein vertrektijd",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [
+      "access_location",
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Trein vertrektijd"
+      },
+      "nl": {
+        "name": "Trein vertrektijd"
+      }
+    },
+    "defaultLanguage": "nl-NL"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.0.0"
+  }
+}

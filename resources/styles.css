@@ -1,0 +1,29 @@
+#spoor {
+ fill: cyan;
+ font-size: 60;
+ font-family:Fabrikat-Bold;
+ text-length: 5;
+}
+
+#station {
+ text-anchor:end;
+ fill: red; /* Of Peach */
+ font-size: 42;
+ font-family:Fabrikat-Bold;
+ text-length: 8;
+}
+
+#tijd {
+ fill: red; /* Of Peach */
+ font-size: 120;
+ font-family:Fabrikat-Bold;
+ text-length: 8;
+ text-anchor: middle;
+}
+
+#ticker {
+ fill: cyan; 
+ font-size: 48;
+ font-family:Fabrikat-Bold;
+ text-length: 80;
+}
